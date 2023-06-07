@@ -23,5 +23,6 @@ public class ExecutingBatch {
         b4.name = "Sayed";
         b4.age = 23;
         System.out.println(BatchFiveStudents.trainersName);
+
     }
 }
