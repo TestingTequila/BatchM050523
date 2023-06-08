@@ -7,6 +7,7 @@ public class Browser {
         checkRam();
         checkBrowserVersion();
         System.out.println("launchBrowser : This method will launch browser");
+        System.out.println("Whatever");
     }
 
     private void checkRam() {

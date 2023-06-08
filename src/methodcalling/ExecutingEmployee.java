@@ -9,6 +9,11 @@ public class ExecutingEmployee {
         Employee emp = new Employee("Jason", 30);
         emp.getInfo(emp); // Call by Reference
 
+        A.name = "Ashish";
+        A.a = 25;
+        A.m1();
+        A.m2();
+        A.m3();
 
 
 

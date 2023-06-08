@@ -23,5 +23,8 @@ public class ExecutingECommApplication {
 
         EcommerceApplication eca2 = new EcommerceApplication();
         eca2.doLogin().generateOrderId().logout();
+
+        EcommerceApplication eca4 = new EcommerceApplication();
+        eca4.doLogin().logout();
     }
 }

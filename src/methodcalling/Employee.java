@@ -2,11 +2,25 @@ package methodcalling;
 
 public class Employee {
 
-    String name;// Amrita
+    String name;// Ashish
     int age; //25
+
+    public Employee(String name, int age, String city) {
+        this.name = name;
+        this.age = age;
+        this.city = city;
+    }
+
+    String city;
 
 
     public Employee(String name, int age) {
+        this("Rohit", 24, "Gurgaon");
+//        this.name = name;
+//        this.age = age;
+    }
+
+    public Employee(String name) {
         this.name = name;
         this.age = 25;
     }
@@ -18,8 +32,10 @@ public class Employee {
     }
 
     public void getInfo(Employee emp) {
-        emp.name = "Amrita";
-        emp.age = 25;
+        emp.name = "Gaurav";
+        emp.age = 40;
         System.out.println("Name : " + name + " and Age :" + age);
     }
+
+
 }
