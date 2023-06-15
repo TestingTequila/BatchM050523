@@ -1,5 +1,7 @@
 package inheritance1;
 
+import javax.swing.plaf.PanelUI;
+
 public class Car extends  Vehicle{
 
     public  void start()
@@ -7,9 +9,16 @@ public class Car extends  Vehicle{
         System.out.println("CAR ----START");
     }
 
+
     public  void stop()
     {
         System.out.println("CAR ----STOP");
+    }
+
+
+    public  void asd(double a, int b)
+    {
+        System.out.println(a+b);
     }
 
     public  void refuel()
