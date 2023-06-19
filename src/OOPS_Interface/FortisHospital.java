@@ -3,9 +3,15 @@ package OOPS_Interface;
 public class FortisHospital extends  HospitalOrganization implements USMedicalAssociation, UKMedicalAssociation, IndiaMedicalAssociation {
 
 
+
+    int hospital_Fee =40;
+
     @Override
-    public void cardioService() {
+    public void cardioService()
+    {
+        System.out.println(USMedicalAssociation.HOSPITAL_FEE);
         System.out.println("FH- cardioService");
+
     }
 
     @Override

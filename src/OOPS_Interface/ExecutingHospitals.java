@@ -12,6 +12,14 @@ public class ExecutingHospitals {
         fh.physioService();
         fh.orthoService();
         fh.oncologyService();
+        System.out.println(fh.hospital_Fee); // NSV
+        System.out.println("US MEDICAL FEE: "+USMedicalAssociation.HOSPITAL_FEE); //SV
+
+        System.out.println(Constants1.BROWSER_TYPE);
+        System.out.println(Constants1.WAIT_TIME);
+
+
+
 
         System.out.println("================USMedicalAssociation===================");
         USMedicalAssociation usma = new FortisHospital();

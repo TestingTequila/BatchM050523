@@ -1,13 +1,18 @@
 package OOPS_Interface;
 
-public interface USMedicalAssociation extends WHO{
+public interface USMedicalAssociation extends WHO {
 
-    public  void cardioService();
+    int HOSPITAL_FEE =20;
+    public void cardioService();
 
-    public  void neuroService();
+    public void neuroService();
 
-    public  void physioService();
+    public void physioService();
 
-    public  void emergencyService();
+    public void emergencyService();
+
+
+
+
 
 }
