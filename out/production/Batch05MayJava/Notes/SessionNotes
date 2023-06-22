@@ -1,0 +1,6 @@
+   // Abstract methods cannot be final
+   // Abstract methods cannot be static
+   // Abstract methods cannot have private access modifiers
+   // Interface can have variables and this will by default always be static and final
+      As they are static, you can call them directly using className
+      As they are final, you cannot change the value associated with the variable
